@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# About the project
+this is an exam project for all Altschool frontend students. it is a react application that uses react-Router to navia=gate between one page and the other it is a made up of a Home page from where you can proceed to other pages. after implementation, the project is going to be deployed to the gitHub and Netlify.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# Getting started with the Counter APP
 
-### `npm start`
+once the Url is inputted, you will be directed to the Home page from where you can proceed to other pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About the home page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+the Home page is the first component of the Counter-App. 
+in the Home page there are links to the the counter App page.
+there is also a link to the Error-Boundary
+there is a link to test the 404 PAGE
 
-### `npm test`
+## HOW THE COUNTER APP WORKS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The counter App which is the key project, has few buttons which performs the functionalities.
 
-### `npm run build`
+one of the buttons is the increment which is used to increase the value
+another is the decrement button which is used to decrease the value
+we have the reset button used to bring the value back to the initial value
+there is also the SetValue Button used to set the value of choice without the need to use the increment and decrement button
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+the is also a link to proceed to back to the Home page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How the Error Boundary works
+Error boundary is implementted in order to catch JavaScript error anywhere in there child component tree, and display a fall-back UI instead of the component tree that crashed. it can be tested as it found on the Home Page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## how the 404 works. 
 
-### `npm run eject`
+it is just a way of telling the user that an error has occured if a wrong url is inputed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
