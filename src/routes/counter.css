@@ -1,0 +1,54 @@
+
+body{
+    text-align: center;
+};
+
+.container{
+    border: 1px solid black;
+}
+
+#title{
+    color: #ff7700d3;
+
+}
+
+#current{
+color:black;
+}
+
+.btn-App{
+    display:block;
+    margin:auto ;
+    margin-bottom: 20px;
+    color: red;
+
+}
+#incr{
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#decr{
+    padding: 0 20px;
+    font-size: 15px;
+font-weight: bold;
+}
+
+#res{
+padding: 0 35px;
+font-size: 15px;
+font-weight: bold;
+}
+
+#update{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#home{
+text-decoration: none;
+}
+
+
